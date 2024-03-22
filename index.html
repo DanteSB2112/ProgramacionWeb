@@ -1,20 +1,39 @@
 <!DOCTYPE html>
 <html>
   <head>
-   
+    <style>
+        body {
+            background-color: #fffbf7;
+        }
+        h1 {
+          color: #025157;
+        }
+        .TextoDebajoTitulo {
+            color: #46484c;
+        }
+        .TextoPromocional {
+            color: #8b8b8bcc;
+        }
+        .TextoBoton {
+            background-color: #025157;
+            color: #fff;
+        }
+      </style> <!--Cambio de color CSS--> 
+
     <title>Matcha</title>
   </head>
   <body>
-    <h1>Construye tu blog. Construye tu negocio.</h1>
-    <p>Publique artículos instantáneamente, genere más tráfico, haga crecer su lista de correo electrónico y vea las publicaciones de su blog
-    impacto en las ventas</p>
+    <h1>Construye tu blog. Construye tu negocio.</h1> <!--Primer texto-->
+    <p class="TextoDebajoTitulo">Publique artículos instantáneamente, genere más tráfico, haga crecer su lista de correo electrónico y vea las publicaciones de su blog
+    con un impacto en las ventas</p> <!--Segundo Texto-->
     <form>
         <input type="email" />
-        <button type="submit">
+        <button type="submit" class="TextoBoton">
         Pruebalo ahora &rarr;
         </button>
-      </form>
-    <p>Comience a publicar hoy con una<strong>prueba gratuita de 7 días.</strong></p>
-    <p><strong>Sin tarjeta de crédito</strong> requerida.</p>
+      </form> <!--Cuadro para colocar Email-->
+    <p class="TextoPromocional">Comience a publicar hoy con una<strong>prueba gratuita de 7 días.</strong></p> <!--Tercer texto con mod en negritas-->
+    <p class="TextoPromocional"><strong>Sin tarjeta de crédito</strong> requerida.</p> <!--Cuarto texto con mod en negritas-->
+    <img src="https://ignos.blog/wp-content/uploads/2021/04/capterra.png" /> <!--Primera imagen del logo-->
   </body>
 </html>
