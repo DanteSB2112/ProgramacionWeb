@@ -17,3 +17,54 @@ Button {
     background-color: #025157;
     color: #fff;
 }
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex; /* Usar flexbox para un diseño más flexible y responsive */
+    justify-content: space-between; /* Distribuir los elementos uniformemente a lo largo del eje principal */
+    align-items: center; /* Centrar los elementos a lo largo del eje transversal */
+    padding: 10px 50px; /* Agregar relleno alrededor de los elementos dentro del encabezado */
+}
+.logo img {
+   max-width:100px;
+   height:auto;
+}
+
+.navbar ul {
+   list-style-type:none;
+}
+.navbar li {
+   display:inline-block;
+   margin-right:20px; 
+}
+.actions {
+    width: 15%;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+}
+.actions > * {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.actions a {
+    color: #67b54b;
+}
+.actions button {
+    color: white;
+    background-color: #67b54b;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    border-radius: 5px;
+}
+.main {
+    margin-top: 140px;
+    text-align: center;
+}
+    
+  
